@@ -1,0 +1,23 @@
+* 安装相关模块
+1.Cobbler(YCM需要调用cobbler代码模块)
+2.Saltstack
+    yum install https://repo.saltstack.com/yum/redhat/salt-repo-latest-1.el7.noarch.rpm
+    sudo yum install salt-master
+    sudo yum install salt-minion
+    sudo yum install salt-ssh
+    sudo yum install salt-syndic
+    sudo yum install salt-cloud
+    sudo yum install salt-api
+3. Saltstack API、配置
+    传送门：http://pengyao.org/salt-api-deploy-and-use.html
+4. ansible 安装
+5. MySQL-python
+    yum install MySQL-python
+6.MySQL安装配置(YCM数据模型)
+    mysql -u root -ppasswd creat ycm
+    只要python manage.py validate
+
+* 相关模块
+installos 系统安装
+audits 运维审计
+asset 资产管理
