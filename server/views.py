@@ -4,13 +4,13 @@ from django.template import RequestContext
 from django.http import HttpResponseRedirect
 from django.core.urlresolvers import reverse
 from django.contrib.auth.decorators import login_required
-from saltserver.saltapi import SaltAPI
+from server.saltapi import SaltAPI
 from Ycm import settings
 from ycm.mysql import db_operate
 from asset.models import HostList
 #from ycm.models import *
-from  saltserver.code import Code_Work
-from  saltserver.json_data import BuildJson
+from  server.code import Code_Work
+from  server.json_data import BuildJson
 from ycm.action_message import enter
 import time
 
