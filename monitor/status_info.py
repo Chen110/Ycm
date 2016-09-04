@@ -2,8 +2,8 @@
 from Ycm import settings
 import threading
 from sys import path
-if 'saltserver' not in path:
-    path.append(r'saltserver')
+if 'server' not in path:
+    path.append(r'server')
 from saltapi import SaltAPI
 
 def get_server_status_info(tgt):
@@ -16,6 +16,6 @@ def get_server_status_info(tgt):
     cpu_status=ret['cpustats]
     disk_status=ret['diskstats']
     mem_status=ret['meminfo']
-    
+
     vm_status=ret['vmstats']
     return info
