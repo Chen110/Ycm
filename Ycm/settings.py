@@ -41,7 +41,7 @@ INSTALLED_APPS = (
     'installos',
     'asset',
     'audits',
-    'saltserver',
+    'server',
     'monitor'
 )
 

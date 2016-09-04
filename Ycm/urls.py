@@ -53,7 +53,7 @@ urlpatterns = [
     url(r'^server/module_deploy/$', module_deploy, name='module_deploy'),
     url(r'^server/remote_execution/$', remote_execution, name='remote_execution'),
     url(r'^server/code_deploy/$', code_deploy, name='code_deploy'),
-    
+
     url(r'^audit/history/$', history_list, name='history_list'),
     #监控
     url(r'monitor/monitor_host_list/$',monitor_host_list,name="monitor_host_list"),
