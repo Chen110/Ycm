@@ -52,7 +52,6 @@ urlpatterns = [
     url(r'^server/key_accept/$', salt_accept_key, name='accept_key'),
     url(r'^server/module_deploy/$', module_deploy, name='module_deploy'),
     url(r'^server/remote_execution/$', remote_execution, name='remote_execution'),
-    url(r'^server/code_deploy/$', code_deploy, name='code_deploy'),
 
     url(r'^audit/history/$', history_list, name='history_list'),
     #监控
