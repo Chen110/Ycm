@@ -9,8 +9,6 @@ from Ycm import settings
 from ycm.mysql import db_operate
 from asset.models import HostList
 #from ycm.models import *
-from  server.code import Code_Work
-from  server.json_data import BuildJson
 from ycm.action_message import enter
 import time
 
@@ -140,7 +138,7 @@ def remote_execution(request):
                 'arg': arg,
                 'ret': ret,
                 },context_instance=RequestContext(request))
-
+'''
 def code_deploy(request):
     """
     Pull code for building, pushed to the server
@@ -177,3 +175,4 @@ def code_deploy(request):
                                 {'ret': ret
                                 },
                               context_instance=RequestContext(request))
+'''
