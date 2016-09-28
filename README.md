@@ -7,15 +7,16 @@
 1.3 Django 1.8  
 
 ## 目录结构  
->2.1 Ycm
->>    settings.py 基本配置  
+### Ycm
+    settings.py 基本配置  
     settings_local.py 本地配置    
->
-2.2 ycm 用户管理  
->2.3 asset 资产管理  
->2.4 audit 运维审计  
->2.5 saltserver salt服务  
->2.6 ansserver ansible管理 s
+
+#### ycm 用户管理  
+* asset 资产管理  
+* audit 运维审计  
+* server 服务配置  
+* monitor 监控
+* logserver 日志分析
 
 ## 界面展示  
 1。 登陆界面  
